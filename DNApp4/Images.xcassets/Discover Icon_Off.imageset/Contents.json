@@ -3,11 +3,12 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "comment-placeholder.png"
+      "filename" : "Discover Icon_Off.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "Discover Icon_Off@2x.png"
     }
   ],
   "info" : {
