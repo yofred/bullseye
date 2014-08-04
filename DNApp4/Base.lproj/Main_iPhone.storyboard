@@ -123,12 +123,8 @@
                                                     <rect key="frame" x="0.0" y="-2" width="159" height="50"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="comment-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Ovu-1g-aXL">
-                                                            <rect key="frame" x="37" y="15" width="19" height="19"/>
-                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                        </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9C2-NK-c2J">
-                                                            <rect key="frame" x="64" y="8" width="62" height="30"/>
+                                                            <rect key="frame" x="66" y="8" width="62" height="30"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                                             <state key="normal" title="comment">
@@ -136,6 +132,10 @@
                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
                                                         </button>
+                                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="comment_icon" translatesAutoresizingMaskIntoConstraints="NO" id="hmd-5h-GgK">
+                                                            <rect key="frame" x="40" y="13" width="21" height="22"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                        </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </view>
@@ -143,10 +143,6 @@
                                                     <rect key="frame" x="167" y="0.0" width="153" height="50"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="up-arrow-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="n63-5g-OD7">
-                                                            <rect key="frame" x="49" y="15" width="19" height="19"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OqU-04-rmk">
                                                             <rect key="frame" x="73" y="8" width="38" height="30"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -156,6 +152,10 @@
                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
                                                         </button>
+                                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="share_icon" translatesAutoresizingMaskIntoConstraints="NO" id="YxY-Ud-O44">
+                                                            <rect key="frame" x="47" y="13" width="21" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                        </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </view>
@@ -179,7 +179,7 @@
                     <barButtonItem key="backBarButtonItem" title="Back" id="2Fr-VG-G1p"/>
                 </navigationItem>
             </objects>
-            <point key="canvasLocation" x="1565" y="1032"/>
+            <point key="canvasLocation" x="1574" y="906"/>
         </scene>
         <!--Table View Controller - Home-->
         <scene sceneID="gwb-bQ-pEN">
@@ -214,6 +214,16 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="391"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcD-Hf-jzc">
+                                                    <rect key="frame" x="0.0" y="129" width="322" height="209"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="XTa-LI-OAT" kind="push" id="jIq-oI-tr1"/>
+                                                    </connections>
+                                                </button>
                                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U3j-QT-8Bu">
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="63"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -271,10 +281,6 @@
                                                     <rect key="frame" x="0.0" y="346" width="160" height="45"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="comment-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="OCf-Ur-1gk">
-                                                            <rect key="frame" x="38" y="12" width="20" height="20"/>
-                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                        </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8EK-sM-ix9">
                                                             <rect key="frame" x="64" y="7" width="65" height="30"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -284,6 +290,10 @@
                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
                                                         </button>
+                                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="comment_icon" translatesAutoresizingMaskIntoConstraints="NO" id="4ON-u1-BCq">
+                                                            <rect key="frame" x="39" y="11" width="21" height="22"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                        </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 </view>
@@ -291,10 +301,6 @@
                                                     <rect key="frame" x="160" y="346" width="160" height="45"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="up-arrow-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="e6W-VS-4mE">
-                                                            <rect key="frame" x="50" y="13" width="20" height="20"/>
-                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                        </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ac3-tw-iEe">
                                                             <rect key="frame" x="77" y="8" width="38" height="30"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -304,6 +310,10 @@
                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
                                                         </button>
+                                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="share_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ZbR-W4-bU0">
+                                                            <rect key="frame" x="51" y="12" width="21" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                        </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 </view>
@@ -323,7 +333,77 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6e0-cN-hXO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1945" y="1035"/>
+            <point key="canvasLocation" x="1200" y="-549"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ndl-Qs-60C">
+            <objects>
+                <viewController id="XTa-LI-OAT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mEN-g2-J5C"/>
+                        <viewControllerLayoutGuide type="bottom" id="FyD-os-gNZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="doF-n1-Qia">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="graph-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Pk5-80-X8e">
+                                <rect key="frame" x="0.0" y="192" width="320" height="184"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Did you read that the CEO wants to cut 18k of the workforce - is this good? Let me know in the comments!" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="298" translatesAutoresizingMaskIntoConstraints="NO" id="i5G-w2-xg1">
+                                <rect key="frame" x="11" y="122" width="298" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zak-tiny" translatesAutoresizingMaskIntoConstraints="NO" id="Pes-ZP-C2R">
+                                <rect key="frame" x="11" y="71" width="42" height="43"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zach R." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="img-Xb-OOx">
+                                <rect key="frame" x="66" y="73" width="60" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" red="0.31372550129999999" green="0.75686281919999998" blue="0.50588238240000005" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="following" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQ8-Cr-t49">
+                                <rect key="frame" x="66" y="91" width="60" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hmG-lq-Qb1">
+                                <rect key="frame" x="0.0" y="376" width="320" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="36 comments" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bO-OR-Iih">
+                                        <rect key="frame" x="9" y="5" width="105" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2m" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxi-KV-r30">
+                                        <rect key="frame" x="269" y="5" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="i6H-G4-OHo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QWK-vj-fPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1574" y="-549"/>
         </scene>
         <!--Table View Controller - Notifications-->
         <scene sceneID="YpA-Np-Dem">
@@ -409,7 +489,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="um0-ig-zJj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="8SU-pA-eTy" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1919" y="260"/>
+            <point key="canvasLocation" x="1574" y="178"/>
         </scene>
         <!--Navigation Controller - Discover-->
         <scene sceneID="ddh-Ty-cFz">
@@ -429,7 +509,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wFv-rR-JNL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1532" y="260"/>
+            <point key="canvasLocation" x="1200" y="178"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Bkg-da-LBo">
@@ -472,7 +552,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jYu-VF-grg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1173" y="1032"/>
+            <point key="canvasLocation" x="1200" y="906"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Kod-xI-nms">
@@ -491,7 +571,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oRU-pG-lJb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1565" y="1712"/>
+            <point key="canvasLocation" x="1574" y="1644"/>
         </scene>
         <!--Navigation Controller - Notifications-->
         <scene sceneID="tRF-gs-k9W">
@@ -510,7 +590,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XHr-BZ-XqN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1173" y="1712"/>
+            <point key="canvasLocation" x="1200" y="1644"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iCC-D4-u8I">
@@ -553,10 +633,10 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="79C89385-9337-4C66-A153-4F5D1E69B822" translatesAutoresizingMaskIntoConstraints="NO" id="Mau-8F-fHA">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="4BF6DB4E-BAEB-4950-AF94-B466E0D9E115" translatesAutoresizingMaskIntoConstraints="NO" id="Mau-8F-fHA">
                                         <rect key="frame" x="27" y="117" width="26" height="18"/>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="2F4CB672-F157-4519-A118-BEC1845260DA" translatesAutoresizingMaskIntoConstraints="NO" id="i9T-tn-DQE">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="158E0A15-4722-4FC1-B8A4-7A7C62CB1CC3" translatesAutoresizingMaskIntoConstraints="NO" id="i9T-tn-DQE">
                                         <rect key="frame" x="28" y="165" width="25" height="25"/>
                                     </imageView>
                                 </subviews>
@@ -578,7 +658,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="2F4CB672-F157-4519-A118-BEC1845260DA" width="25" height="25">
+        <image name="158E0A15-4722-4FC1-B8A4-7A7C62CB1CC3" width="25" height="25">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -670,7 +750,7 @@ sgC1ALcAuQC7AL0AwgDZANsA3RMTExgTIxMsEz8TQxNWE2ETahNvE3cTehN/E44TkhOZE6ETrhOzE7UT
 txO8E8QTxxPME9QT1xPpE+wT8QAAAAAAAAIBAAAAAAAAAEIAAAAAAAAAAAAAAAAAABPzA
 </mutableData>
         </image>
-        <image name="79C89385-9337-4C66-A153-4F5D1E69B822" width="26" height="18">
+        <image name="4BF6DB4E-BAEB-4950-AF94-B466E0D9E115" width="26" height="18">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -757,11 +837,11 @@ AAAAAAAAQgAAAAAAAAAAAAAAAAAAEX8
         <image name="Notifications Icon_Off" width="26" height="26"/>
         <image name="Watchlist Icon_Off" width="30" height="24"/>
         <image name="button-blue" width="500" height="88"/>
-        <image name="comment-placeholder" width="40" height="41"/>
+        <image name="comment_icon" width="21" height="22"/>
         <image name="graph-placeholder" width="640" height="370"/>
         <image name="input-outline" width="500" height="88"/>
         <image name="settings" width="24" height="24"/>
-        <image name="up-arrow-placeholder" width="39" height="39"/>
+        <image name="share_icon" width="21" height="21"/>
         <image name="zak-tiny" width="42" height="42"/>
     </resources>
     <color key="tintColor" red="0.31372550129999999" green="0.75686281919999998" blue="0.50588238240000005" alpha="1" colorSpace="deviceRGB"/>

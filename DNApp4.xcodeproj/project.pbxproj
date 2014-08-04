@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		035BBB1A198C62510061534E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035BBB19198C62510061534E /* Images.xcassets */; };
+		03D11709198FCAE800E6A60C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D11708198FCAE800E6A60C /* Images.xcassets */; };
 		03DCE6EE1986F8FC006E45DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DCE6ED1986F8FC006E45DF /* Foundation.framework */; };
 		03DCE6F01986F8FC006E45DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DCE6EF1986F8FC006E45DF /* CoreGraphics.framework */; };
 		03DCE6F21986F8FC006E45DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DCE6F11986F8FC006E45DF /* UIKit.framework */; };
@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		035BBB19198C62510061534E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03D11708198FCAE800E6A60C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		03DCE6EA1986F8FC006E45DF /* DNApp4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNApp4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DCE6ED1986F8FC006E45DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03DCE6EF1986F8FC006E45DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,7 +117,7 @@
 				03DCE6FF1986F8FD006E45DF /* Main_iPhone.storyboard */,
 				03DCE7051986F8FD006E45DF /* ViewController.h */,
 				03DCE7061986F8FD006E45DF /* ViewController.m */,
-				035BBB19198C62510061534E /* Images.xcassets */,
+				03D11708198FCAE800E6A60C /* Images.xcassets */,
 				03DCE6F41986F8FD006E45DF /* Supporting Files */,
 			);
 			path = DNApp4;
@@ -231,7 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				035BBB1A198C62510061534E /* Images.xcassets in Resources */,
+				03D11709198FCAE800E6A60C /* Images.xcassets in Resources */,
 				03DCE7011986F8FD006E45DF /* Main_iPhone.storyboard in Resources */,
 				03DCE6F81986F8FD006E45DF /* InfoPlist.strings in Resources */,
 			);
