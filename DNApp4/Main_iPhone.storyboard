@@ -405,7 +405,7 @@
                                     <rect key="frame" x="0.0" y="334" width="321" height="19"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="tintColor" patternImage="01872A0D-DEF9-4579-8ED8-CA2512D052CE" colorSpace="pattern"/>
+                                    <color key="tintColor" patternImage="00560926-CA77-4E75-A2AB-DB77765E5318" colorSpace="pattern"/>
                                 </view>
                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="graph placeholder 2" translatesAutoresizingMaskIntoConstraints="NO" id="0Sd-4x-nqz">
                                     <rect key="frame" x="-1" y="150" width="323" height="140"/>
@@ -1634,10 +1634,10 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="82DFA189-7191-4D6B-83E8-5BE48AA48D1F" translatesAutoresizingMaskIntoConstraints="NO" id="Mau-8F-fHA">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="90577F51-D444-45BE-9693-A884A9554D93" translatesAutoresizingMaskIntoConstraints="NO" id="Mau-8F-fHA">
                                         <rect key="frame" x="27" y="117" width="26" height="18"/>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="A50AD001-3831-49DB-A2D5-4DA369CC6CB7" translatesAutoresizingMaskIntoConstraints="NO" id="i9T-tn-DQE">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="CAA9A523-A8CD-4DCF-98B1-84262E65EB5D" translatesAutoresizingMaskIntoConstraints="NO" id="i9T-tn-DQE">
                                         <rect key="frame" x="28" y="165" width="25" height="25"/>
                                     </imageView>
                                 </subviews>
@@ -1732,7 +1732,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="01872A0D-DEF9-4579-8ED8-CA2512D052CE" width="256" height="256">
+        <image name="00560926-CA77-4E75-A2AB-DB77765E5318" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -6174,7 +6174,7 @@ BA6JAAQOkQAEDp4ABA6jAAQOpQAEDqcABA6sAAQOtAAEDrcABA68AAQOxAAEDscABA7ZAAQO3AAEDuEA
 AAAAAAAEAQAAAAAAAABCAAAAAAAAAAAAAAAAAAQO4w
 </mutableData>
         </image>
-        <image name="82DFA189-7191-4D6B-83E8-5BE48AA48D1F" width="26" height="18">
+        <image name="90577F51-D444-45BE-9693-A884A9554D93" width="26" height="18">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -6256,7 +6256,11 @@ yxDPEOIQ7RD2EPsRAxEGEQsRGhEeESURLRE6ET8RQRFDEUgRUBFTEVgRYBFjEXUReBF9AAAAAAAAAgEA
 AAAAAAAAQgAAAAAAAAAAAAAAAAAAEX8
 </mutableData>
         </image>
-        <image name="A50AD001-3831-49DB-A2D5-4DA369CC6CB7" width="25" height="25">
+        <image name="Add User Icon" width="25" height="19"/>
+        <image name="Back Icon 2" width="20" height="19"/>
+        <image name="Bear Icon" width="56" height="56"/>
+        <image name="Bull Icon" width="60" height="59"/>
+        <image name="CAA9A523-A8CD-4DCF-98B1-84262E65EB5D" width="25" height="25">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -6348,10 +6352,6 @@ sgC1ALcAuQC7AL0AwgDZANsA3RMTExgTIxMsEz8TQxNWE2ETahNvE3cTehN/E44TkhOZE6ETrhOzE7UT
 txO8E8QTxxPME9QT1xPpE+wT8QAAAAAAAAIBAAAAAAAAAEIAAAAAAAAAAAAAAAAAABPzA
 </mutableData>
         </image>
-        <image name="Add User Icon" width="25" height="19"/>
-        <image name="Back Icon 2" width="20" height="19"/>
-        <image name="Bear Icon" width="56" height="56"/>
-        <image name="Bull Icon" width="60" height="59"/>
         <image name="Close Icon 2" width="16" height="16"/>
         <image name="Comment button" width="105" height="30"/>
         <image name="Conversation Icon_Off" width="28" height="24"/>
