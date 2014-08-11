@@ -405,7 +405,7 @@
                                     <rect key="frame" x="0.0" y="334" width="321" height="19"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="tintColor" patternImage="7465C886-99F0-4DEE-8C99-20EBB7ECC89C" colorSpace="pattern"/>
+                                    <color key="tintColor" patternImage="99176E24-09AE-4F4B-B223-EA375A3372E2" colorSpace="pattern"/>
                                 </view>
                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="graph placeholder 2" translatesAutoresizingMaskIntoConstraints="NO" id="0Sd-4x-nqz">
                                     <rect key="frame" x="-1" y="150" width="323" height="140"/>
@@ -1135,207 +1135,6 @@
             </objects>
             <point key="canvasLocation" x="1285" y="1738"/>
         </scene>
-        <!--Table View Controller-->
-        <scene sceneID="HLR-Zg-UqZ">
-            <objects>
-                <tableViewController id="ydG-IN-o0G" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="GzJ-jF-My5">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <view key="tableHeaderView" contentMode="scaleToFill" id="2ec-BB-axX">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="272"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile avatar placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="nsT-Aw-OgJ">
-                                    <rect key="frame" x="121" y="57" width="78" height="78"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                </imageView>
-                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Andy Hamilton" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K3B-Aw-TgQ">
-                                    <rect key="frame" x="106" y="147" width="108" height="22"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
-                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Boston, MA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6h1-wq-tps">
-                                    <rect key="frame" x="137" y="167" width="76" height="21"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
-                                    <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location icon" translatesAutoresizingMaskIntoConstraints="NO" id="pIb-xT-ecP">
-                                    <rect key="frame" x="117" y="173" width="13" height="17"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                </imageView>
-                                <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" translatesAutoresizingMaskIntoConstraints="NO" id="nYe-ZQ-bzd">
-                                    <rect key="frame" x="141" y="185" width="39" height="37"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                </pageControl>
-                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iEX-P0-CgO">
-                                    <rect key="frame" x="0.0" y="217" width="320" height="55"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXy-hf-VmW">
-                                            <rect key="frame" x="53" y="5" width="61" height="46"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal">
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                        </button>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="104" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="24" translatesAutoresizingMaskIntoConstraints="NO" id="t7F-nV-mp4">
-                                            <rect key="frame" x="76" y="11" width="24" height="17"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
-                                            <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="followers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EN-iy-cte">
-                                            <rect key="frame" x="68" y="28" width="42" height="13"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
-                                            <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5U-Pz-Onb">
-                                            <rect key="frame" x="132" y="5" width="61" height="46"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal">
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                        </button>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="145" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="24" translatesAutoresizingMaskIntoConstraints="NO" id="G9I-1E-leg">
-                                            <rect key="frame" x="149" y="11" width="24" height="17"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
-                                            <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="following" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3r-hY-WRf">
-                                            <rect key="frame" x="141" y="28" width="42" height="13"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
-                                            <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BtS-O3-IIr">
-                                            <rect key="frame" x="202" y="5" width="61" height="46"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal">
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                        </button>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="16" translatesAutoresizingMaskIntoConstraints="NO" id="V7Z-sz-GjH">
-                                            <rect key="frame" x="222" y="11" width="16" height="17"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
-                                            <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="stocks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIh-pT-rDD">
-                                            <rect key="frame" x="215" y="28" width="32" height="13"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
-                                            <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Vertical Line" translatesAutoresizingMaskIntoConstraints="NO" id="2IO-vW-ezV">
-                                            <rect key="frame" x="123" y="13" width="1" height="28"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </imageView>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Vertical Line" translatesAutoresizingMaskIntoConstraints="NO" id="ibs-z2-0zN">
-                                            <rect key="frame" x="198" y="13" width="1" height="28"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </imageView>
-                                    </subviews>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                </view>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="follow icon for profile" translatesAutoresizingMaskIntoConstraints="NO" id="Hm8-xL-gIO">
-                                    <rect key="frame" x="276" y="17" width="28" height="21"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                </imageView>
-                            </subviews>
-                            <color key="backgroundColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
-                        </view>
-                        <sections>
-                            <tableViewSection id="pl5-Au-pMB">
-                                <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="85" id="XjQ-g1-r1d">
-                                        <rect key="frame" x="0.0" y="272" width="320" height="85"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XjQ-g1-r1d" id="vnm-RV-lmb">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbj-s9-lXR">
-                                                    <rect key="frame" x="0.0" y="1" width="320" height="83"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal">
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                </button>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MSFT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvW-rC-IT8">
-                                                    <rect key="frame" x="10" y="16" width="77" height="36"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Microsoft Inc." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKk-b6-rQ9">
-                                                    <rect key="frame" x="10" y="49" width="74" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
-                                                    <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="41.23" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L09-Ck-PNn">
-                                                    <rect key="frame" x="235" y="16" width="76" height="36"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+1.45" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXZ-w1-WbP">
-                                                    <rect key="frame" x="216" y="49" width="43" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
-                                                    <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+3.45%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1Z-vR-VJh">
-                                                    <rect key="frame" x="266" y="49" width="43" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
-                                                    <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <color key="backgroundColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
-                                        </tableViewCellContentView>
-                                        <color key="tintColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="85" id="IUD-lG-Gwa">
-                                        <rect key="frame" x="0.0" y="357" width="320" height="85"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IUD-lG-Gwa" id="KpD-3S-wj8">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                        </sections>
-                        <connections>
-                            <outlet property="dataSource" destination="ydG-IN-o0G" id="2TX-HO-lNa"/>
-                            <outlet property="delegate" destination="ydG-IN-o0G" id="YDm-Rp-xHW"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="25Y-RL-2ZS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1638" y="2153"/>
-        </scene>
         <!--Table View Controller - Zach Robinson-->
         <scene sceneID="Snm-eJ-0mb">
             <objects>
@@ -1707,7 +1506,9 @@
                             <outlet property="delegate" destination="66E-nf-U7u" id="phI-vn-Cus"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Zach R." id="5Oe-Nf-jhU"/>
+                    <navigationItem key="navigationItem" title="Zach R." id="5Oe-Nf-jhU">
+                        <barButtonItem key="leftBarButtonItem" image="Back Icon 2" id="4H8-dQ-Yoj"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dwJ-Kx-xsW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2212,10 +2013,10 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="AACAEDB7-8D72-4858-9CFA-BEFF85F16CF1" translatesAutoresizingMaskIntoConstraints="NO" id="Mau-8F-fHA">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="EB3A56FC-0172-4087-A6A1-4F2793729690" translatesAutoresizingMaskIntoConstraints="NO" id="Mau-8F-fHA">
                                         <rect key="frame" x="27" y="117" width="26" height="18"/>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="0B291965-30CA-4E62-8409-44DF5C041D3E" translatesAutoresizingMaskIntoConstraints="NO" id="i9T-tn-DQE">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="AD18EC79-DE21-4D9F-A6CD-116819C23DFF" translatesAutoresizingMaskIntoConstraints="NO" id="i9T-tn-DQE">
                                         <rect key="frame" x="28" y="165" width="25" height="25"/>
                                     </imageView>
                                 </subviews>
@@ -2310,99 +2111,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="0B291965-30CA-4E62-8409-44DF5C041D3E" width="25" height="25">
-            <mutableData key="keyedArchiveRepresentation">
-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
-AARaZmlGSQAAACgAAAR8cGxQTAAAACwAAASkcnVSVQAAACIAAATQYXJFRwAAACYAAATyZW5VUwAAACYA
-AAUYZGFESwAAAC4AAAU+AFYBYQBlAG8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbABHAGUA
-bgBlAHIAaQENAGsAaQAgAFIARwBCACAAcAByAG8AZgBpAGwAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcA
-ZQBuAOgAcgBpAGMAUABlAHIAZgBpAGwAIABSAEcAQgAgAEcAZQBuAOkAcgBpAGMAbwQXBDAEMwQwBDsE
-TAQ9BDgEOQAgBD8EQAQ+BEQEMAQ5BDsAIABSAEcAQgBQAHIAbwBmAGkAbAAgAGcA6QBuAOkAcgBpAHEA
-dQBlACAAUgBWAEKQGnUoACAAUgBHAEIAIIJyX2ljz4/wAFAAcgBvAGYAaQBsAG8AIABSAEcAQgAgAGcA
-ZQBuAGUAcgBpAGMAbwBHAGUAbgBlAHIAaQBzAGsAIABSAEcAQgAtAHAAcgBvAGYAaQBsx3y8GAAgAFIA
-RwBCACDVBLhc0wzHfABPAGIAZQBjAG4A/QAgAFIARwBCACAAcAByAG8AZgBpAGwF5AXoBdUF5AXZBdwA
-IABSAEcAQgAgBdsF3AXcBdkAQQBsAGwAZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIALQBQAHIAbwBmAGkA
-bADBAGwAdABhAGwA4QBuAG8AcwAgAFIARwBCACAAcAByAG8AZgBpAGxmbpAaACAAUgBHAEIAIGPPj/Bl
-h072TgCCLAAgAFIARwBCACAw1zDtMNUwoTCkMOsAUAByAG8AZgBpAGwAIABSAEcAQgAgAGcAZQBuAGUA
-cgBpAGMDkwO1A70DuQO6A8wAIAPAA8EDvwPGA68DuwAgAFIARwBCAFAAZQByAGYAaQBsACAAUgBHAEIA
-IABnAGUAbgDpAHIAaQBjAG8AQQBsAGcAZQBtAGUAZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAZQBsDkIO
-Gw4jDkQOHw4lDkwAIABSAEcAQgAgDhcOMQ5IDicORA4bAEcAZQBuAGUAbAAgAFIARwBCACAAUAByAG8A
-ZgBpAGwAaQBZAGwAZQBpAG4AZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAaQBsAGkAVQBuAGkAdwBlAHIA
-cwBhAGwAbgB5ACAAcAByAG8AZgBpAGwAIABSAEcAQgQeBDEESQQ4BDkAIAQ/BEAEPgREBDgEOwRMACAA
-UgBHAEIGRQZEBkEAIAYqBjkGMQZKBkEAIABSAEcAQgAgBicGRAY5BicGRQBHAGUAbgBlAHIAaQBjACAA
-UgBHAEIAIABQAHIAbwBmAGkAbABlAEcAZQBuAGUAcgBlAGwAIABSAEcAQgAtAGIAZQBzAGsAcgBpAHYA
-ZQBsAHMAZXRleHQAAAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5jLiwgYWxsIHJpZ2h0cyByZXNlcnZl
-ZC4AWFlaIAAAAAAAAPNSAAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAAAAAAAABadQAArHMA
-ABc0WFlaIAAAAAAAACgaAAAVnwAAuDZjdXJ2AAAAAAAAAAEBzQAAc2YzMgAAAAAAAQxCAAAF3v//8yYA
-AAeSAAD9kf//+6L///2jAAAD3AAAwGzSJSYnKFokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNCaXRtYXBJ
-bWFnZVJlcKMpKitfEBBOU0JpdG1hcEltYWdlUmVwWk5TSW1hZ2VSZXBYTlNPYmplY3TSJSYtLldOU0Fy
-cmF5oi0r0iUmMDFeTlNNdXRhYmxlQXJyYXmjMC0r0zM0CjU2N1dOU1doaXRlXE5TQ29sb3JTcGFjZUQw
-IDAAEAOADNIlJjk6V05TQ29sb3KiOSvSJSY8PVdOU0ltYWdlojwrXxAPTlNLZXllZEFyY2hpdmVy0UBB
-VHJvb3SAAQAIABEAGgAjAC0AMgA3AEYATABXAF4AZQByAHkAgQCDAIUAigCMAI4AlwCcAKcAqQCrAK0A
-sgC1ALcAuQC7AL0AwgDZANsA3RMTExgTIxMsEz8TQxNWE2ETahNvE3cTehN/E44TkhOZE6ETrhOzE7UT
-txO8E8QTxxPME9QT1xPpE+wT8QAAAAAAAAIBAAAAAAAAAEIAAAAAAAAAAAAAAAAAABPzA
-</mutableData>
-        </image>
-        <image name="7465C886-99F0-4DEE-8C99-20EBB7ECC89C" width="256" height="256">
+        <image name="99176E24-09AE-4F4B-B223-EA375A3372E2" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -6844,7 +6553,108 @@ BA6JAAQOkQAEDp4ABA6jAAQOpQAEDqcABA6sAAQOtAAEDrcABA68AAQOxAAEDscABA7ZAAQO3AAEDuEA
 AAAAAAAEAQAAAAAAAABCAAAAAAAAAAAAAAAAAAQO4w
 </mutableData>
         </image>
-        <image name="AACAEDB7-8D72-4858-9CFA-BEFF85F16CF1" width="26" height="18">
+        <image name="AD18EC79-DE21-4D9F-A6CD-116819C23DFF" width="25" height="25">
+            <mutableData key="keyedArchiveRepresentation">
+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
+AARaZmlGSQAAACgAAAR8cGxQTAAAACwAAASkcnVSVQAAACIAAATQYXJFRwAAACYAAATyZW5VUwAAACYA
+AAUYZGFESwAAAC4AAAU+AFYBYQBlAG8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbABHAGUA
+bgBlAHIAaQENAGsAaQAgAFIARwBCACAAcAByAG8AZgBpAGwAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcA
+ZQBuAOgAcgBpAGMAUABlAHIAZgBpAGwAIABSAEcAQgAgAEcAZQBuAOkAcgBpAGMAbwQXBDAEMwQwBDsE
+TAQ9BDgEOQAgBD8EQAQ+BEQEMAQ5BDsAIABSAEcAQgBQAHIAbwBmAGkAbAAgAGcA6QBuAOkAcgBpAHEA
+dQBlACAAUgBWAEKQGnUoACAAUgBHAEIAIIJyX2ljz4/wAFAAcgBvAGYAaQBsAG8AIABSAEcAQgAgAGcA
+ZQBuAGUAcgBpAGMAbwBHAGUAbgBlAHIAaQBzAGsAIABSAEcAQgAtAHAAcgBvAGYAaQBsx3y8GAAgAFIA
+RwBCACDVBLhc0wzHfABPAGIAZQBjAG4A/QAgAFIARwBCACAAcAByAG8AZgBpAGwF5AXoBdUF5AXZBdwA
+IABSAEcAQgAgBdsF3AXcBdkAQQBsAGwAZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIALQBQAHIAbwBmAGkA
+bADBAGwAdABhAGwA4QBuAG8AcwAgAFIARwBCACAAcAByAG8AZgBpAGxmbpAaACAAUgBHAEIAIGPPj/Bl
+h072TgCCLAAgAFIARwBCACAw1zDtMNUwoTCkMOsAUAByAG8AZgBpAGwAIABSAEcAQgAgAGcAZQBuAGUA
+cgBpAGMDkwO1A70DuQO6A8wAIAPAA8EDvwPGA68DuwAgAFIARwBCAFAAZQByAGYAaQBsACAAUgBHAEIA
+IABnAGUAbgDpAHIAaQBjAG8AQQBsAGcAZQBtAGUAZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAZQBsDkIO
+Gw4jDkQOHw4lDkwAIABSAEcAQgAgDhcOMQ5IDicORA4bAEcAZQBuAGUAbAAgAFIARwBCACAAUAByAG8A
+ZgBpAGwAaQBZAGwAZQBpAG4AZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAaQBsAGkAVQBuAGkAdwBlAHIA
+cwBhAGwAbgB5ACAAcAByAG8AZgBpAGwAIABSAEcAQgQeBDEESQQ4BDkAIAQ/BEAEPgREBDgEOwRMACAA
+UgBHAEIGRQZEBkEAIAYqBjkGMQZKBkEAIABSAEcAQgAgBicGRAY5BicGRQBHAGUAbgBlAHIAaQBjACAA
+UgBHAEIAIABQAHIAbwBmAGkAbABlAEcAZQBuAGUAcgBlAGwAIABSAEcAQgAtAGIAZQBzAGsAcgBpAHYA
+ZQBsAHMAZXRleHQAAAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5jLiwgYWxsIHJpZ2h0cyByZXNlcnZl
+ZC4AWFlaIAAAAAAAAPNSAAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAAAAAAAABadQAArHMA
+ABc0WFlaIAAAAAAAACgaAAAVnwAAuDZjdXJ2AAAAAAAAAAEBzQAAc2YzMgAAAAAAAQxCAAAF3v//8yYA
+AAeSAAD9kf//+6L///2jAAAD3AAAwGzSJSYnKFokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNCaXRtYXBJ
+bWFnZVJlcKMpKitfEBBOU0JpdG1hcEltYWdlUmVwWk5TSW1hZ2VSZXBYTlNPYmplY3TSJSYtLldOU0Fy
+cmF5oi0r0iUmMDFeTlNNdXRhYmxlQXJyYXmjMC0r0zM0CjU2N1dOU1doaXRlXE5TQ29sb3JTcGFjZUQw
+IDAAEAOADNIlJjk6V05TQ29sb3KiOSvSJSY8PVdOU0ltYWdlojwrXxAPTlNLZXllZEFyY2hpdmVy0UBB
+VHJvb3SAAQAIABEAGgAjAC0AMgA3AEYATABXAF4AZQByAHkAgQCDAIUAigCMAI4AlwCcAKcAqQCrAK0A
+sgC1ALcAuQC7AL0AwgDZANsA3RMTExgTIxMsEz8TQxNWE2ETahNvE3cTehN/E44TkhOZE6ETrhOzE7UT
+txO8E8QTxxPME9QT1xPpE+wT8QAAAAAAAAIBAAAAAAAAAEIAAAAAAAAAAAAAAAAAABPzA
+</mutableData>
+        </image>
+        <image name="Add User Icon" width="25" height="19"/>
+        <image name="Back Icon 2" width="20" height="19"/>
+        <image name="Bear Icon" width="56" height="56"/>
+        <image name="Bull Icon" width="60" height="59"/>
+        <image name="Close Icon 2" width="16" height="16"/>
+        <image name="Comment button" width="105" height="30"/>
+        <image name="Conversation Icon_Off" width="28" height="24"/>
+        <image name="Create Post Button Off" width="117" height="32"/>
+        <image name="Discover Icon_Off" width="27" height="24"/>
+        <image name="EB3A56FC-0172-4087-A6A1-4F2793729690" width="26" height="18">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -6926,15 +6736,6 @@ yxDPEOIQ7RD2EPsRAxEGEQsRGhEeESURLRE6ET8RQRFDEUgRUBFTEVgRYBFjEXUReBF9AAAAAAAAAgEA
 AAAAAAAAQgAAAAAAAAAAAAAAAAAAEX8
 </mutableData>
         </image>
-        <image name="Add User Icon" width="25" height="19"/>
-        <image name="Back Icon 2" width="20" height="19"/>
-        <image name="Bear Icon" width="56" height="56"/>
-        <image name="Bull Icon" width="60" height="59"/>
-        <image name="Close Icon 2" width="16" height="16"/>
-        <image name="Comment button" width="105" height="30"/>
-        <image name="Conversation Icon_Off" width="28" height="24"/>
-        <image name="Create Post Button Off" width="117" height="32"/>
-        <image name="Discover Icon_Off" width="27" height="24"/>
         <image name="Edit Profile Text Field" width="320" height="52"/>
         <image name="Follow Button for Profile Off" width="182" height="32"/>
         <image name="Line" width="320" height="1"/>
@@ -6951,7 +6752,6 @@ AAAAAAAAQgAAAAAAAAAAAAAAAAAAEX8
         <image name="Watchlist Icon_Off" width="30" height="24"/>
         <image name="button-blue" width="500" height="88"/>
         <image name="edit profile" width="210" height="30"/>
-        <image name="follow icon for profile" width="28" height="22"/>
         <image name="follow list off" width="100" height="30"/>
         <image name="follow list on" width="100" height="30"/>
         <image name="graph placeholder 2" width="320" height="140"/>
