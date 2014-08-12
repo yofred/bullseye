@@ -23,7 +23,7 @@
                                     <textInputTraits key="textInputTraits"/>
                                 </searchBar>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3g-xJ-c5F">
-                                    <rect key="frame" x="9" y="13" width="26" height="19"/>
+                                    <rect key="frame" x="8" y="12" width="27" height="21"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" backgroundImage="feedback icon">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -335,7 +335,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <searchBar contentMode="redraw" fixedFrame="YES" searchBarStyle="minimal" placeholder="search stocks" translatesAutoresizingMaskIntoConstraints="NO" id="jL3-yi-JHA">
-                                    <rect key="frame" x="22" y="0.0" width="276" height="44"/>
+                                    <rect key="frame" x="35" y="0.0" width="250" height="44"/>
                                     <color key="barTintColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </searchBar>
@@ -525,7 +525,7 @@
                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nXH-zn-EyP">
                                     <rect key="frame" x="0.0" y="334" width="321" height="19"/>
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="tintColor" patternImage="22DBAB91-B07C-41B4-8021-C1E73333AED5" colorSpace="pattern"/>
+                                    <color key="tintColor" patternImage="02B1EC2A-038C-4493-865B-F29A540C1088" colorSpace="pattern"/>
                                 </view>
                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="graph placeholder 2" translatesAutoresizingMaskIntoConstraints="NO" id="0Sd-4x-nqz">
                                     <rect key="frame" x="-1" y="150" width="323" height="140"/>
@@ -1805,6 +1805,13 @@
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Add User Icon" translatesAutoresizingMaskIntoConstraints="NO" id="ACE-OS-iue">
                                     <rect key="frame" x="285" y="13" width="25" height="18"/>
                                 </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rf-Fy-xxS">
+                                    <rect key="frame" x="8" y="12" width="27" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="feedback icon">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
                             </subviews>
                             <color key="backgroundColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                         </view>
@@ -2047,10 +2054,10 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="788661B2-109D-499B-80C7-4EC69FB1CA66" translatesAutoresizingMaskIntoConstraints="NO" id="Mau-8F-fHA">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="F7C61F14-3782-4853-9D73-710C867B27E7" translatesAutoresizingMaskIntoConstraints="NO" id="Mau-8F-fHA">
                                         <rect key="frame" x="27" y="117" width="26" height="18"/>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="CA8A4F58-2022-4633-9849-7923346D6188" translatesAutoresizingMaskIntoConstraints="NO" id="i9T-tn-DQE">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="F86411CF-1C7C-48F2-BF5C-EA8A44302566" translatesAutoresizingMaskIntoConstraints="NO" id="i9T-tn-DQE">
                                         <rect key="frame" x="28" y="165" width="25" height="25"/>
                                     </imageView>
                                 </subviews>
@@ -2145,7 +2152,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="22DBAB91-B07C-41B4-8021-C1E73333AED5" width="256" height="256">
+        <image name="02B1EC2A-038C-4493-865B-F29A540C1088" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -6587,7 +6594,17 @@ BA6JAAQOkQAEDp4ABA6jAAQOpQAEDqcABA6sAAQOtAAEDrcABA68AAQOxAAEDscABA7ZAAQO3AAEDuEA
 AAAAAAAEAQAAAAAAAABCAAAAAAAAAAAAAAAAAAQO4w
 </mutableData>
         </image>
-        <image name="788661B2-109D-499B-80C7-4EC69FB1CA66" width="26" height="18">
+        <image name="Add User Icon" width="25" height="19"/>
+        <image name="Back Icon 2" width="20" height="19"/>
+        <image name="Bear Icon" width="56" height="56"/>
+        <image name="Bull Icon" width="60" height="59"/>
+        <image name="Close Icon 2" width="16" height="16"/>
+        <image name="Comment button" width="105" height="30"/>
+        <image name="Conversation Icon_Off" width="28" height="24"/>
+        <image name="Create Post Button Off" width="117" height="32"/>
+        <image name="Discover Icon_Off" width="27" height="24"/>
+        <image name="Edit Profile Text Field" width="320" height="52"/>
+        <image name="F7C61F14-3782-4853-9D73-710C867B27E7" width="26" height="18">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -6669,11 +6686,7 @@ yxDPEOIQ7RD2EPsRAxEGEQsRGhEeESURLRE6ET8RQRFDEUgRUBFTEVgRYBFjEXUReBF9AAAAAAAAAgEA
 AAAAAAAAQgAAAAAAAAAAAAAAAAAAEX8
 </mutableData>
         </image>
-        <image name="Add User Icon" width="25" height="19"/>
-        <image name="Back Icon 2" width="20" height="19"/>
-        <image name="Bear Icon" width="56" height="56"/>
-        <image name="Bull Icon" width="60" height="59"/>
-        <image name="CA8A4F58-2022-4633-9849-7923346D6188" width="25" height="25">
+        <image name="F86411CF-1C7C-48F2-BF5C-EA8A44302566" width="25" height="25">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -6765,12 +6778,6 @@ sgC1ALcAuQC7AL0AwgDZANsA3RMTExgTIxMsEz8TQxNWE2ETahNvE3cTehN/E44TkhOZE6ETrhOzE7UT
 txO8E8QTxxPME9QT1xPpE+wT8QAAAAAAAAIBAAAAAAAAAEIAAAAAAAAAAAAAAAAAABPzA
 </mutableData>
         </image>
-        <image name="Close Icon 2" width="16" height="16"/>
-        <image name="Comment button" width="105" height="30"/>
-        <image name="Conversation Icon_Off" width="28" height="24"/>
-        <image name="Create Post Button Off" width="117" height="32"/>
-        <image name="Discover Icon_Off" width="27" height="24"/>
-        <image name="Edit Profile Text Field" width="320" height="52"/>
         <image name="Follow Button for Profile Off" width="182" height="32"/>
         <image name="Line" width="320" height="1"/>
         <image name="Line for graph" width="320" height="2"/>
