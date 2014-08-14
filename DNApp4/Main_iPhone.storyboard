@@ -46,12 +46,12 @@
                                                     <rect key="frame" x="1" y="281" width="320" height="54"/>
                                                     <subviews>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="36 people" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8E-pI-BZr">
-                                                            <rect key="frame" x="10" y="16" width="71" height="21"/>
+                                                            <rect key="frame" x="10" y="16" width="76" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="commented" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNc-CF-hIJ">
-                                                            <rect key="frame" x="74" y="16" width="74" height="21"/>
+                                                            <rect key="frame" x="74" y="16" width="80" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                             <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                                             <nil key="highlightedColor"/>
@@ -78,7 +78,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2m" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpO-tS-ND5">
-                                                            <rect key="frame" x="273" y="27" width="37" height="21"/>
+                                                            <rect key="frame" x="261" y="27" width="49" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
@@ -89,7 +89,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="St2-nQ-1ga">
-                                                            <rect key="frame" x="261" y="7" width="49" height="30"/>
+                                                            <rect key="frame" x="244" y="7" width="66" height="30"/>
                                                             <state key="normal" title="MSFT">
                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
@@ -202,7 +202,7 @@
                                     <color key="backgroundColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                 </view>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trending stocks to watch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgx-80-LfT">
-                                    <rect key="frame" x="10" y="57" width="193" height="21"/>
+                                    <rect key="frame" x="10" y="57" width="302" height="21"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                     <nil key="highlightedColor"/>
@@ -225,13 +225,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MSFT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sV0-D6-S38">
-                                                    <rect key="frame" x="10" y="10" width="77" height="36"/>
+                                                    <rect key="frame" x="10" y="10" width="192" height="36"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Microsoft Inc." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCE-4p-Tqh">
-                                                    <rect key="frame" x="10" y="48" width="80" height="16"/>
+                                                    <rect key="frame" x="10" y="48" width="192" height="16"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -253,13 +253,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MSFT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AL4-cQ-Qh1">
-                                                    <rect key="frame" x="10" y="10" width="77" height="36"/>
+                                                    <rect key="frame" x="10" y="10" width="192" height="36"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Microsoft Inc." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fa-8H-FIg">
-                                                    <rect key="frame" x="10" y="48" width="80" height="16"/>
+                                                    <rect key="frame" x="10" y="48" width="192" height="16"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -281,13 +281,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MSFT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbx-zw-IeC">
-                                                    <rect key="frame" x="10" y="10" width="77" height="36"/>
+                                                    <rect key="frame" x="10" y="10" width="192" height="36"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Microsoft Inc." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOv-u5-IeW">
-                                                    <rect key="frame" x="10" y="48" width="80" height="16"/>
+                                                    <rect key="frame" x="10" y="48" width="192" height="16"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -363,7 +363,7 @@
                                                             <rect key="frame" x="10" y="10" width="35" height="35"/>
                                                         </imageView>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="following" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udu-XP-1K0">
-                                                            <rect key="frame" x="59" y="27" width="69" height="21"/>
+                                                            <rect key="frame" x="59" y="27" width="71" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
@@ -373,8 +373,8 @@
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIt-Bb-XWp">
-                                                            <rect key="frame" x="264" y="8" width="41" height="30"/>
+                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIt-Bb-XWp">
+                                                            <rect key="frame" x="238" y="8" width="67" height="30"/>
                                                             <state key="normal" title="MSFT">
                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
@@ -383,13 +383,13 @@
                                                             </connections>
                                                         </button>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2m" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyS-vM-W1j">
-                                                            <rect key="frame" x="278" y="26" width="25" height="21"/>
+                                                            <rect key="frame" x="254" y="26" width="49" height="21"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
                                                             <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6At-aw-m4s">
-                                                            <rect key="frame" x="59" y="8" width="54" height="30"/>
+                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6At-aw-m4s">
+                                                            <rect key="frame" x="59" y="8" width="171" height="30"/>
                                                             <state key="normal" title="Zach R.">
                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
@@ -466,31 +466,31 @@
                                                     <rect key="frame" x="-2" y="101" width="322" height="70"/>
                                                     <subviews>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MSFT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOZ-WU-v9R">
-                                                            <rect key="frame" x="10" y="9" width="77" height="36"/>
+                                                            <rect key="frame" x="10" y="9" width="112" height="36"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="41.08" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKB-UV-mZx">
-                                                            <rect key="frame" x="195" y="9" width="116" height="36"/>
+                                                            <rect key="frame" x="183" y="9" width="128" height="36"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Microsoft Inc." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpY-qM-S4f">
-                                                            <rect key="frame" x="10" y="46" width="74" height="14"/>
+                                                            <rect key="frame" x="10" y="46" width="169" height="14"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                             <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+3.12%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tkj-rd-KFV">
-                                                            <rect key="frame" x="260" y="46" width="51" height="14"/>
+                                                            <rect key="frame" x="259" y="46" width="52" height="14"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                             <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+1.45" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Js6-QW-zFu">
-                                                            <rect key="frame" x="205" y="46" width="52" height="14"/>
+                                                            <rect key="frame" x="195" y="46" width="62" height="14"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                             <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -533,7 +533,7 @@
                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nXH-zn-EyP">
                                     <rect key="frame" x="0.0" y="334" width="321" height="19"/>
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="tintColor" patternImage="AF0D677D-BC26-4C0E-BB10-B06D1E99C2BE" colorSpace="pattern"/>
+                                    <color key="tintColor" patternImage="EB58C8A7-A055-40B5-9661-2788EA20D1CD" colorSpace="pattern"/>
                                 </view>
                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="graph placeholder 2" translatesAutoresizingMaskIntoConstraints="NO" id="0Sd-4x-nqz">
                                     <rect key="frame" x="-1" y="150" width="323" height="140"/>
@@ -542,7 +542,7 @@
                                     <rect key="frame" x="0.0" y="288" width="160" height="45"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="technology" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mla-Eh-LzQ">
-                                            <rect key="frame" x="48" y="9" width="70" height="17"/>
+                                            <rect key="frame" x="21" y="9" width="124" height="16"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                             <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
@@ -560,13 +560,13 @@
                                     <rect key="frame" x="161" y="288" width="161" height="45"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="130 friends" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aiL-BH-7uT">
-                                            <rect key="frame" x="44" y="9" width="70" height="17"/>
+                                            <rect key="frame" x="22" y="9" width="114" height="17"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                             <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="watching MSFT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X3x-23-YXQ">
-                                            <rect key="frame" x="34" y="19" width="92" height="21"/>
+                                            <rect key="frame" x="24" y="19" width="114" height="21"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
                                             <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                             <nil key="highlightedColor"/>
@@ -581,19 +581,19 @@
                                             <rect key="frame" x="0.0" y="43" width="320" height="2"/>
                                         </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+3.53 %" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xp9-Dz-PtN">
-                                            <rect key="frame" x="70" y="71" width="182" height="58"/>
+                                            <rect key="frame" x="12" y="71" width="297" height="58"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="49"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+1.45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5u-WL-lW1">
-                                            <rect key="frame" x="104" y="126" width="46" height="21"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+1.45" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5u-WL-lW1">
+                                            <rect key="frame" x="70" y="126" width="81" height="21"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                             <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="41.23" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJ6-jY-USB">
-                                            <rect key="frame" x="169" y="126" width="46" height="21"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="41.23" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJ6-jY-USB">
+                                            <rect key="frame" x="168" y="126" width="88" height="21"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                             <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
@@ -704,7 +704,7 @@
                                 <rect key="frame" x="10" y="85" width="35" height="35"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zach R." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01N-Wi-f7b">
-                                <rect key="frame" x="59" y="85" width="60" height="21"/>
+                                <rect key="frame" x="59" y="85" width="135" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
@@ -802,19 +802,19 @@
                                                     <rect key="frame" x="-14" y="-13" width="85" height="85"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stopped watching MSFT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4u-PY-Az0">
-                                                    <rect key="frame" x="58" y="29" width="191" height="21"/>
+                                                    <rect key="frame" x="58" y="29" width="252" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zach R." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6w-Cw-Qer">
-                                                    <rect key="frame" x="58" y="11" width="60" height="21"/>
+                                                    <rect key="frame" x="58" y="11" width="210" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
                                                     <color key="textColor" red="0.31372550129999999" green="0.75686281919999998" blue="0.50588238240000005" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30m" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGd-3H-yBB">
-                                                    <rect key="frame" x="276" y="12" width="34" height="21"/>
+                                                    <rect key="frame" x="269" y="12" width="41" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -830,13 +830,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10 new stocks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C25-ob-RPR">
-                                                    <rect key="frame" x="10" y="10" width="110" height="21"/>
+                                                    <rect key="frame" x="10" y="10" width="118" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" were added today" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mt-B9-wQG">
-                                                    <rect key="frame" x="117" y="11" width="144" height="21"/>
+                                                    <rect key="frame" x="117" y="11" width="192" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -858,8 +858,8 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stock icon stockholder" translatesAutoresizingMaskIntoConstraints="NO" id="zof-yo-vpR">
                                                     <rect key="frame" x="235" y="40" width="35" height="35"/>
                                                 </imageView>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6y-uL-rVc">
-                                                    <rect key="frame" x="283" y="47" width="20" height="21"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6y-uL-rVc">
+                                                    <rect key="frame" x="278" y="47" width="36" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -901,7 +901,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notify me when:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dk-qc-SSg">
-                                    <rect key="frame" x="10" y="12" width="125" height="21"/>
+                                    <rect key="frame" x="10" y="12" width="300" height="21"/>
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
                                     <nil key="highlightedColor"/>
                                 </label>
@@ -939,8 +939,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A friend creates a new post on a stock" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="187" translatesAutoresizingMaskIntoConstraints="NO" id="eDl-OH-Vo1">
-                                                    <rect key="frame" x="10" y="9" width="187" height="38"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A friend creates a new post on a stock" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="eDl-OH-Vo1">
+                                                    <rect key="frame" x="10" y="9" width="200" height="38"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -1006,7 +1006,7 @@
                                                     <rect key="frame" x="10" y="10" width="35" height="37"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zach R." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIQ-RZ-adj">
-                                                    <rect key="frame" x="55" y="16" width="157" height="21"/>
+                                                    <rect key="frame" x="55" y="16" width="147" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1031,7 +1031,7 @@
                                                     <rect key="frame" x="10" y="10" width="35" height="35"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mike N." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VoC-Fn-rt2">
-                                                    <rect key="frame" x="55" y="18" width="140" height="21"/>
+                                                    <rect key="frame" x="55" y="18" width="147" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1079,7 +1079,7 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="38"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Public Information" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EA0-RG-ZAD">
-                                        <rect key="frame" x="10" y="8" width="140" height="21"/>
+                                        <rect key="frame" x="10" y="8" width="300" height="21"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -1091,7 +1091,7 @@
                                 <rect key="frame" x="0.0" y="328" width="320" height="38"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtx-eh-F77">
-                                        <rect key="frame" x="10" y="8" width="140" height="21"/>
+                                        <rect key="frame" x="10" y="8" width="301" height="21"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -1103,7 +1103,7 @@
                                 <rect key="frame" x="0.0" y="418" width="320" height="38"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Favorite Sector" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qv8-WW-Nec">
-                                        <rect key="frame" x="10" y="8" width="140" height="21"/>
+                                        <rect key="frame" x="10" y="8" width="299" height="21"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -1131,7 +1131,7 @@
                                 <rect key="frame" x="0.0" y="455" width="320" height="52"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Technology" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igm-Ro-OxZ">
-                                        <rect key="frame" x="10" y="15" width="149" height="21"/>
+                                        <rect key="frame" x="10" y="15" width="298" height="21"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -1170,13 +1170,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MSFT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jm6-72-bi9">
-                                                    <rect key="frame" x="10" y="10" width="77" height="36"/>
+                                                    <rect key="frame" x="10" y="10" width="192" height="36"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Microsoft Inc." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtr-kS-CMd">
-                                                    <rect key="frame" x="10" y="48" width="80" height="16"/>
+                                                    <rect key="frame" x="10" y="48" width="192" height="16"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1198,13 +1198,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TRLA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJ9-K1-5UP">
-                                                    <rect key="frame" x="10" y="9" width="72" height="36"/>
+                                                    <rect key="frame" x="10" y="9" width="192" height="36"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trulia Inc." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WO6-16-Hcr">
-                                                    <rect key="frame" x="10" y="43" width="74" height="21"/>
+                                                    <rect key="frame" x="10" y="43" width="192" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1296,7 +1296,7 @@
                                     <rect key="frame" x="125" y="1" width="70" height="69"/>
                                 </imageView>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPB-JS-XjR">
-                                    <rect key="frame" x="69" y="85" width="182" height="32"/>
+                                    <rect key="frame" x="69" y="88" width="182" height="32"/>
                                     <state key="normal" backgroundImage="Follow Button for Profile Off">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
@@ -1313,8 +1313,8 @@
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                         </button>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="104" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="24" translatesAutoresizingMaskIntoConstraints="NO" id="HAA-OD-6p9">
-                                            <rect key="frame" x="78" y="11" width="24" height="17"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="104" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="56" translatesAutoresizingMaskIntoConstraints="NO" id="HAA-OD-6p9">
+                                            <rect key="frame" x="60" y="11" width="56" height="17"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
                                             <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1331,8 +1331,8 @@
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                         </button>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="145" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="24" translatesAutoresizingMaskIntoConstraints="NO" id="dXe-YA-s3l">
-                                            <rect key="frame" x="151" y="11" width="24" height="17"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="145" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="62" translatesAutoresizingMaskIntoConstraints="NO" id="dXe-YA-s3l">
+                                            <rect key="frame" x="132" y="11" width="62" height="17"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
                                             <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1349,8 +1349,8 @@
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                         </button>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="16" translatesAutoresizingMaskIntoConstraints="NO" id="SWD-A5-nNB">
-                                            <rect key="frame" x="224" y="11" width="16" height="17"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="55" translatesAutoresizingMaskIntoConstraints="NO" id="SWD-A5-nNB">
+                                            <rect key="frame" x="203" y="11" width="55" height="17"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
                                             <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1391,31 +1391,31 @@
                                                     </state>
                                                 </button>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MSFT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEU-G9-cD6">
-                                                    <rect key="frame" x="10" y="14" width="77" height="36"/>
+                                                    <rect key="frame" x="10" y="14" width="156" height="36"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Microsoft Inc." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtV-ly-OOt">
-                                                    <rect key="frame" x="10" y="47" width="74" height="21"/>
+                                                    <rect key="frame" x="10" y="47" width="174" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                     <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="41.23" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2sg-nE-Ugd">
-                                                    <rect key="frame" x="235" y="14" width="76" height="36"/>
+                                                    <rect key="frame" x="174" y="14" width="136" height="36"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+1.45" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNB-Dl-N0U">
-                                                    <rect key="frame" x="216" y="47" width="43" height="21"/>
+                                                    <rect key="frame" x="187" y="47" width="67" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                     <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+3.45%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGA-O1-zEL">
-                                                    <rect key="frame" x="266" y="47" width="43" height="21"/>
+                                                    <rect key="frame" x="255" y="47" width="55" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                     <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1476,8 +1476,8 @@
                                                 <segue destination="WAF-8D-TJZ" kind="push" id="L3c-MT-vtT"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="104" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="24" translatesAutoresizingMaskIntoConstraints="NO" id="MIZ-yt-BcX">
-                                            <rect key="frame" x="78" y="11" width="24" height="17"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="104" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="62" translatesAutoresizingMaskIntoConstraints="NO" id="MIZ-yt-BcX">
+                                            <rect key="frame" x="61" y="11" width="62" height="17"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
                                             <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1497,8 +1497,8 @@
                                                 <segue destination="5hq-d4-6La" kind="push" id="vPp-bc-2pM"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="145" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="24" translatesAutoresizingMaskIntoConstraints="NO" id="YUn-Ph-4ll">
-                                            <rect key="frame" x="151" y="11" width="24" height="17"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="145" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="60" translatesAutoresizingMaskIntoConstraints="NO" id="YUn-Ph-4ll">
+                                            <rect key="frame" x="133" y="11" width="60" height="17"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
                                             <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1515,8 +1515,8 @@
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                         </button>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="16" translatesAutoresizingMaskIntoConstraints="NO" id="mM5-Vm-v3g">
-                                            <rect key="frame" x="224" y="11" width="16" height="17"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="58" translatesAutoresizingMaskIntoConstraints="NO" id="mM5-Vm-v3g">
+                                            <rect key="frame" x="203" y="11" width="58" height="17"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
                                             <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1566,31 +1566,31 @@
                                                     </state>
                                                 </button>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MSFT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7a-SB-pJS">
-                                                    <rect key="frame" x="10" y="15" width="77" height="36"/>
+                                                    <rect key="frame" x="10" y="15" width="156" height="36"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Microsoft Inc." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anu-w0-ZH5">
-                                                    <rect key="frame" x="10" y="48" width="74" height="21"/>
+                                                    <rect key="frame" x="10" y="48" width="172" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                     <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="41.23" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Hw-2G-Ytw">
-                                                    <rect key="frame" x="235" y="15" width="76" height="36"/>
+                                                    <rect key="frame" x="174" y="15" width="137" height="36"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+1.45" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9a6-lx-kLP">
-                                                    <rect key="frame" x="216" y="48" width="43" height="21"/>
+                                                    <rect key="frame" x="188" y="48" width="69" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                     <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+3.45%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nff-8P-qfj">
-                                                    <rect key="frame" x="266" y="48" width="43" height="21"/>
+                                                    <rect key="frame" x="253" y="48" width="56" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                     <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1636,8 +1636,8 @@
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                         </button>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="104" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="24" translatesAutoresizingMaskIntoConstraints="NO" id="2ip-rB-hVu">
-                                            <rect key="frame" x="78" y="10" width="24" height="17"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="104" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="54" translatesAutoresizingMaskIntoConstraints="NO" id="2ip-rB-hVu">
+                                            <rect key="frame" x="65" y="10" width="54" height="17"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
                                             <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1654,8 +1654,8 @@
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                         </button>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="145" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="24" translatesAutoresizingMaskIntoConstraints="NO" id="9kU-Df-RZO">
-                                            <rect key="frame" x="151" y="10" width="24" height="17"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="145" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="63" translatesAutoresizingMaskIntoConstraints="NO" id="9kU-Df-RZO">
+                                            <rect key="frame" x="133" y="10" width="63" height="17"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
                                             <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1675,8 +1675,8 @@
                                                 <segue destination="cEf-oO-dTB" kind="push" id="ecu-hd-TWl"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="16" translatesAutoresizingMaskIntoConstraints="NO" id="O3a-Gx-tmU">
-                                            <rect key="frame" x="224" y="10" width="16" height="17"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="60" translatesAutoresizingMaskIntoConstraints="NO" id="O3a-Gx-tmU">
+                                            <rect key="frame" x="201" y="10" width="60" height="17"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
                                             <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1699,30 +1699,30 @@
                                 <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" translatesAutoresizingMaskIntoConstraints="NO" id="THe-Rc-zdt">
                                     <rect key="frame" x="141" y="118" width="39" height="37"/>
                                 </pageControl>
-                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="245" translatesAutoresizingMaskIntoConstraints="NO" id="lLr-VP-bh9">
-                                    <rect key="frame" x="38" y="8" width="245" height="89"/>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="273" translatesAutoresizingMaskIntoConstraints="NO" id="lLr-VP-bh9">
+                                    <rect key="frame" x="24" y="8" width="273" height="89"/>
                                     <string key="text">I am designer turned investor. Looking to start talking stocks. Find me @twitterhandle, I would love to stay in touch with anyone interested! Let me know what stocks to follow!</string>
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="sector icon" translatesAutoresizingMaskIntoConstraints="NO" id="kET-zl-tEw">
-                                    <rect key="frame" x="72" y="112" width="14" height="13"/>
+                                    <rect key="frame" x="73" y="112" width="14" height="13"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </imageView>
                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="location icon" translatesAutoresizingMaskIntoConstraints="NO" id="ngI-cP-xe2">
-                                    <rect key="frame" x="163" y="114" width="13" height="16"/>
+                                    <rect key="frame" x="167" y="114" width="13" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </imageView>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Technology" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4FP-Yz-JnO">
-                                    <rect key="frame" x="90" y="108" width="72" height="21"/>
+                                    <rect key="frame" x="91" y="108" width="83" height="21"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                     <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Boston, MA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ho2-D1-4Bx">
-                                    <rect key="frame" x="181" y="108" width="91" height="21"/>
+                                    <rect key="frame" x="185" y="108" width="126" height="21"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                     <color key="textColor" red="0.14901961389999999" green="0.53333336109999996" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
@@ -1841,7 +1841,7 @@
                                                     <rect key="frame" x="10" y="10" width="45" height="45"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Basic Materials" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPn-4Q-EIK">
-                                                    <rect key="frame" x="70" y="22" width="128" height="22"/>
+                                                    <rect key="frame" x="70" y="22" width="217" height="22"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1886,13 +1886,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MSFT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0r-m3-eHX">
-                                                    <rect key="frame" x="10" y="10" width="77" height="36"/>
+                                                    <rect key="frame" x="10" y="10" width="192" height="36"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Microsoft Inc." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahH-G6-f0m">
-                                                    <rect key="frame" x="10" y="48" width="80" height="16"/>
+                                                    <rect key="frame" x="10" y="48" width="192" height="16"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1914,13 +1914,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TRLA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PjN-el-Rve">
-                                                    <rect key="frame" x="10" y="9" width="72" height="36"/>
+                                                    <rect key="frame" x="10" y="9" width="192" height="36"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trulia Inc." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZ1-Ym-7Md">
-                                                    <rect key="frame" x="10" y="43" width="74" height="21"/>
+                                                    <rect key="frame" x="10" y="43" width="192" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1972,7 +1972,7 @@
                                                     <rect key="frame" x="10" y="11" width="35" height="35"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zach R." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8H-lU-iwH">
-                                                    <rect key="frame" x="55" y="17" width="159" height="21"/>
+                                                    <rect key="frame" x="55" y="17" width="148" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1997,7 +1997,7 @@
                                                     <rect key="frame" x="10" y="10" width="35" height="35"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mike N." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaP-00-2wA">
-                                                    <rect key="frame" x="55" y="17" width="143" height="21"/>
+                                                    <rect key="frame" x="55" y="17" width="147" height="21"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
                                                     <color key="textColor" red="0.27450981740000002" green="0.7254902124" blue="0.46274513010000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -2066,10 +2066,10 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="506C4DC2-5A23-4083-B671-DD0688002E56" translatesAutoresizingMaskIntoConstraints="NO" id="Mau-8F-fHA">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="CE63120F-0E08-49FA-90DC-AE87D0A8C7A4" translatesAutoresizingMaskIntoConstraints="NO" id="Mau-8F-fHA">
                                         <rect key="frame" x="27" y="117" width="26" height="18"/>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="71BE1993-B4CC-41A8-B567-4B0D629236DB" translatesAutoresizingMaskIntoConstraints="NO" id="i9T-tn-DQE">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="40FE9E65-2D8E-4C09-9C57-7EF653C8A8BC" translatesAutoresizingMaskIntoConstraints="NO" id="i9T-tn-DQE">
                                         <rect key="frame" x="28" y="165" width="25" height="25"/>
                                     </imageView>
                                 </subviews>
@@ -2164,89 +2164,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="506C4DC2-5A23-4083-B671-DD0688002E56" width="26" height="18">
-            <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
-GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
-c1dOU0NvbG9ygAKADRIgwAAAgAOAC1h7MjYsIDE4fdIVChYYWk5TLm9iamVjdHOhF4AEgArSFQoaHaIb
-HIAFgAaACRAA0iAKISJfEBROU1RJRkZSZXByZXNlbnRhdGlvboAHgAhPEQ++TU0AKgAAB1hnd4f/aHiI
-/2d3h/9qeov/anqL/2p6i/9qeov/anqL/2p6i/9qeov/anqL/2p6i/9qeov/anqL/2p6i/9qeov/anqL
-/2p6i/9qeov/anqL/2p6i/9qeov/anqL/2d3h/9oeIj/Z3eH/2d3h/9icYLyQk5YqRYaHTkXGx87GBsf
-PBgbHzwYGx88GBsfPBgbHzwYGx88GBsfPBgbHzwYGx88GBsfPBgbHzwYGx88GBsfPBgbHzwYGx88GBsf
-PBcbHzsWGh05Qk5YqWJxgvJnd4f/aHmJ/yguNGVPW2bEKzM6bwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACszOm9PW2bEKC40
-ZWh5if9qe4v/FBkcNQ4QESNVYG7TLzg/eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvOD94VWBu0w4QESMUGRw1anuL/2p7i/8YHCA9AAAA
-ABASFCdUYG7TLzhAegAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAALzhAelRgbtMQEhQnAAAAABgcID1qe4v/anuL/xgcID0AAAAAAAAAAA8REyZUYW7SMDlB
-fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADA5QXxUYW7SDxET
-JgAAAAAAAAAAGBwgPWp7i/9qe4v/GBwgPQAAAAAAAAAAAAAAAA4QEyRTYW3RMTpCfQAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxOkJ9U2Ft0Q4QEyQAAAAAAAAAAAAAAAAYHCA9anuL
-/2p7i/8YHCA9AAAAAAAAAAAAAAAAAAAAAA4QEiNTYG3QMjtDfwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAMjtDf1NgbdAOEBIjAAAAAAAAAAAAAAAAAAAAABgcID1qe4v/anuL/xgcID0AAAAAAAAA
-AAAAAAAAAAAAAAAAAAsNDx1SX2zOMztDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADM7Q4BSX2zOCw0P
-HQAAAAAAAAAAAAAAAAAAAAAAAAAAGBwgPWp7i/9qe4v/GBwgPQAAAAAAAAAAAAAAAAAAAAAAAAAADxIU
-JxQXGjNRXWnJNj5HiAAAAAAAAAAAAAAAAAAAAAA2PkeIUV1pyRQXGjMPEhQnAAAAAAAAAAAAAAAAAAAA
-AAAAAAAYHCA9anuL/2p7i/8YHCA9AAAAAAAAAAAAAAAAAAAAABkeIUFWZHLaFBcaNAoLDRlQXWrLNj9J
-igAAAAAAAAAANj9JilBdassKCw0ZFBgaNFZkctoZHiFBAAAAAAAAAAAAAAAAAAAAABgcID1qe4v/anuL
-/xgcID0AAAAAAAAAAAAAAAAaHiJCV2d03iIoLFYAAAAAAAAAAAsLDhtRXWnJNj9HijY/R4pRXWnJCwsO
-GwAAAAAAAAAAIigsVldndN4aHiJCAAAAAAAAAAAAAAAAGBwgPWp7i/9qe4v/GBwgPQAAAAAAAAAAGh8i
-Q1lndN8gJixUAAAAAAAAAAAAAAAAAAAAAAoKDRpQXWnKUF1pygoKDRoAAAAAAAAAAAAAAAAAAAAAICYs
-VFlndN8aHyJDAAAAAAAAAAAYHCA9anuL/2p7i/8YHCA9AAAAABogJERXZ3TeICUrUgAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAkKCxcJCgsXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICUrUldndN4aICREAAAA
-ABgcID1qe4v/anuL/xUYGzQaHiFBWWd03iAkKlEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICQqUVlndN4aHiFBFRgbNGp7i/9oeIj/ND1E
-g1Ffa88cISVIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAHCElSFFfa880PUSDaHiI/2d3h/9kdoX8Nj9GhxYYHTYYGx88GBsf
-PBgbHzwYGx88GBsfPBgbHzwYGx88GBsfPBgbHzwYGx88GBsfPBgbHzwYGx88GBsfPBgbHzwYGx88GBsf
-PBgbHzwWGB02Nj9Gh2R2hfxnd4f/Z3eH/2d3h/9oeIj/anqL/2p6i/9qeov/anqL/2p6i/9qeov/anqL
-/2p6i/9qeov/anqL/2p6i/9qeov/anqL/2p6i/9qeov/anqL/2p6i/9qeov/anqL/2p6i/9oeIj/Z3eH
-/2d3h/8ADgEAAAMAAAABABoAAAEBAAMAAAABABIAAAECAAMAAAAEAAAIBgEDAAMAAAABAAEAAAEGAAMA
-AAABAAIAAAERAAQAAAABAAAACAESAAMAAAABAAEAAAEVAAMAAAABAAQAAAEWAAMAAAABABIAAAEXAAQA
-AAABAAAHUAEcAAMAAAABAAEAAAFSAAMAAAABAAEAAAFTAAMAAAAEAAAIDodzAAcAAAeoAAAIFgAAAAAA
-CAAIAAgACAABAAEAAQABAAAHqGFwcGwCIAAAbW50clJHQiBYWVogB9kAAgAZAAsAGgALYWNzcEFQUEwA
-AAAAYXBwbAAAAAAAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1hcHBsAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALZGVzYwAAAQgAAABvZHNjbQAAAXgAAAVsY3BydAAABuQA
-AAA4d3RwdAAABxwAAAAUclhZWgAABzAAAAAUZ1hZWgAAB0QAAAAUYlhZWgAAB1gAAAAUclRSQwAAB2wA
-AAAOY2hhZAAAB3wAAAAsYlRSQwAAB2wAAAAOZ1RSQwAAB2wAAAAOZGVzYwAAAAAAAAAUR2VuZXJpYyBS
-R0IgUHJvZmlsZQAAAAAAAAAAAAAAFEdlbmVyaWMgUkdCIFByb2ZpbGUAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG1sdWMAAAAAAAAAHgAAAAxza1NLAAAAKAAAAXho
-ckhSAAAAKAAAAaBjYUVTAAAAJAAAAchwdEJSAAAAJgAAAex1a1VBAAAAKgAAAhJmckZVAAAAKAAAAjx6
-aFRXAAAAFgAAAmRpdElUAAAAKAAAAnpuYk5PAAAAJgAAAqJrb0tSAAAAFgAAAshjc0NaAAAAIgAAAt5o
-ZUlMAAAAHgAAAwBkZURFAAAALAAAAx5odUhVAAAAKAAAA0pzdlNFAAAAJgAAAqJ6aENOAAAAFgAAA3Jq
-YUpQAAAAGgAAA4hyb1JPAAAAJAAAA6JlbEdSAAAAIgAAA8ZwdFBPAAAAJgAAA+hubE5MAAAAKAAABA5l
-c0VTAAAAJgAAA+h0aFRIAAAAJAAABDZ0clRSAAAAIgAABFpmaUZJAAAAKAAABHxwbFBMAAAALAAABKRy
-dVJVAAAAIgAABNBhckVHAAAAJgAABPJlblVTAAAAJgAABRhkYURLAAAALgAABT4AVgFhAGUAbwBiAGUA
-YwBuAP0AIABSAEcAQgAgAHAAcgBvAGYAaQBsAEcAZQBuAGUAcgBpAQ0AawBpACAAUgBHAEIAIABwAHIA
-bwBmAGkAbABQAGUAcgBmAGkAbAAgAFIARwBCACAAZwBlAG4A6AByAGkAYwBQAGUAcgBmAGkAbAAgAFIA
-RwBCACAARwBlAG4A6QByAGkAYwBvBBcEMAQzBDAEOwRMBD0EOAQ5ACAEPwRABD4ERAQwBDkEOwAgAFIA
-RwBCAFAAcgBvAGYAaQBsACAAZwDpAG4A6QByAGkAcQB1AGUAIABSAFYAQpAadSgAIABSAEcAQgAggnJf
-aWPPj/AAUAByAG8AZgBpAGwAbwAgAFIARwBCACAAZwBlAG4AZQByAGkAYwBvAEcAZQBuAGUAcgBpAHMA
-awAgAFIARwBCAC0AcAByAG8AZgBpAGzHfLwYACAAUgBHAEIAINUEuFzTDMd8AE8AYgBlAGMAbgD9ACAA
-UgBHAEIAIABwAHIAbwBmAGkAbAXkBegF1QXkBdkF3AAgAFIARwBCACAF2wXcBdwF2QBBAGwAbABnAGUA
-bQBlAGkAbgBlAHMAIABSAEcAQgAtAFAAcgBvAGYAaQBsAMEAbAB0AGEAbADhAG4AbwBzACAAUgBHAEIA
-IABwAHIAbwBmAGkAbGZukBoAIABSAEcAQgAgY8+P8GWHTvZOAIIsACAAUgBHAEIAIDDXMO0w1TChMKQw
-6wBQAHIAbwBmAGkAbAAgAFIARwBCACAAZwBlAG4AZQByAGkAYwOTA7UDvQO5A7oDzAAgA8ADwQO/A8YD
-rwO7ACAAUgBHAEIAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcAZQBuAOkAcgBpAGMAbwBBAGwAZwBlAG0A
-ZQBlAG4AIABSAEcAQgAtAHAAcgBvAGYAaQBlAGwOQg4bDiMORA4fDiUOTAAgAFIARwBCACAOFw4xDkgO
-Jw5EDhsARwBlAG4AZQBsACAAUgBHAEIAIABQAHIAbwBmAGkAbABpAFkAbABlAGkAbgBlAG4AIABSAEcA
-QgAtAHAAcgBvAGYAaQBpAGwAaQBVAG4AaQB3AGUAcgBzAGEAbABuAHkAIABwAHIAbwBmAGkAbAAgAFIA
-RwBCBB4EMQRJBDgEOQAgBD8EQAQ+BEQEOAQ7BEwAIABSAEcAQgZFBkQGQQAgBioGOQYxBkoGQQAgAFIA
-RwBCACAGJwZEBjkGJwZFAEcAZQBuAGUAcgBpAGMAIABSAEcAQgAgAFAAcgBvAGYAaQBsAGUARwBlAG4A
-ZQByAGUAbAAgAFIARwBCAC0AYgBlAHMAawByAGkAdgBlAGwAcwBldGV4dAAAAABDb3B5cmlnaHQgMjAw
-NyBBcHBsZSBJbmMuLCBhbGwgcmlnaHRzIHJlc2VydmVkLgBYWVogAAAAAAAA81IAAQAAAAEWz1hZWiAA
-AAAAAAB0TQAAPe4AAAPQWFlaIAAAAAAAAFp1AACscwAAFzRYWVogAAAAAAAAKBoAABWfAAC4NmN1cnYA
-AAAAAAAAAQHNAABzZjMyAAAAAAABDEIAAAXe///zJgAAB5IAAP2R///7ov///aMAAAPcAADAbNIlJico
-WiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU0JpdG1hcEltYWdlUmVwoykqK18QEE5TQml0bWFwSW1hZ2VS
-ZXBaTlNJbWFnZVJlcFhOU09iamVjdNIlJi0uV05TQXJyYXmiLSvSJSYwMV5OU011dGFibGVBcnJheaMw
-LSvTMzQKNTY3V05TV2hpdGVcTlNDb2xvclNwYWNlRDAgMAAQA4AM0iUmOTpXTlNDb2xvcqI5K9IlJjw9
-V05TSW1hZ2WiPCtfEA9OU0tleWVkQXJjaGl2ZXLRQEFUcm9vdIABAAgAEQAaACMALQAyADcARgBMAFcA
-XgBlAHIAeQCBAIMAhQCKAIwAjgCXAJwApwCpAKsArQCyALUAtwC5ALsAvQDCANkA2wDdEJ8QpBCvELgQ
-yxDPEOIQ7RD2EPsRAxEGEQsRGhEeESURLRE6ET8RQRFDEUgRUBFTEVgRYBFjEXUReBF9AAAAAAAAAgEA
-AAAAAAAAQgAAAAAAAAAAAAAAAAAAEX8
-</mutableData>
-        </image>
-        <image name="71BE1993-B4CC-41A8-B567-4B0D629236DB" width="25" height="25">
+        <image name="40FE9E65-2D8E-4C09-9C57-7EF653C8A8BC" width="25" height="25">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -2338,7 +2256,99 @@ sgC1ALcAuQC7AL0AwgDZANsA3RMTExgTIxMsEz8TQxNWE2ETahNvE3cTehN/E44TkhOZE6ETrhOzE7UT
 txO8E8QTxxPME9QT1xPpE+wT8QAAAAAAAAIBAAAAAAAAAEIAAAAAAAAAAAAAAAAAABPzA
 </mutableData>
         </image>
-        <image name="AF0D677D-BC26-4C0E-BB10-B06D1E99C2BE" width="256" height="256">
+        <image name="Add User Icon" width="25" height="19"/>
+        <image name="Back Icon 2" width="20" height="19"/>
+        <image name="Bear Icon" width="56" height="56"/>
+        <image name="Bull Icon" width="60" height="59"/>
+        <image name="Bullish Icon - SMALL" width="35" height="34"/>
+        <image name="CE63120F-0E08-49FA-90DC-AE87D0A8C7A4" width="26" height="18">
+            <mutableData key="keyedArchiveRepresentation">
+YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
+GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
+c1dOU0NvbG9ygAKADRIgwAAAgAOAC1h7MjYsIDE4fdIVChYYWk5TLm9iamVjdHOhF4AEgArSFQoaHaIb
+HIAFgAaACRAA0iAKISJfEBROU1RJRkZSZXByZXNlbnRhdGlvboAHgAhPEQ++TU0AKgAAB1hnd4f/aHiI
+/2d3h/9qeov/anqL/2p6i/9qeov/anqL/2p6i/9qeov/anqL/2p6i/9qeov/anqL/2p6i/9qeov/anqL
+/2p6i/9qeov/anqL/2p6i/9qeov/anqL/2d3h/9oeIj/Z3eH/2d3h/9icYLyQk5YqRYaHTkXGx87GBsf
+PBgbHzwYGx88GBsfPBgbHzwYGx88GBsfPBgbHzwYGx88GBsfPBgbHzwYGx88GBsfPBgbHzwYGx88GBsf
+PBcbHzsWGh05Qk5YqWJxgvJnd4f/aHmJ/yguNGVPW2bEKzM6bwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACszOm9PW2bEKC40
+ZWh5if9qe4v/FBkcNQ4QESNVYG7TLzg/eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvOD94VWBu0w4QESMUGRw1anuL/2p7i/8YHCA9AAAA
+ABASFCdUYG7TLzhAegAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAALzhAelRgbtMQEhQnAAAAABgcID1qe4v/anuL/xgcID0AAAAAAAAAAA8REyZUYW7SMDlB
+fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADA5QXxUYW7SDxET
+JgAAAAAAAAAAGBwgPWp7i/9qe4v/GBwgPQAAAAAAAAAAAAAAAA4QEyRTYW3RMTpCfQAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxOkJ9U2Ft0Q4QEyQAAAAAAAAAAAAAAAAYHCA9anuL
+/2p7i/8YHCA9AAAAAAAAAAAAAAAAAAAAAA4QEiNTYG3QMjtDfwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAMjtDf1NgbdAOEBIjAAAAAAAAAAAAAAAAAAAAABgcID1qe4v/anuL/xgcID0AAAAAAAAA
+AAAAAAAAAAAAAAAAAAsNDx1SX2zOMztDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADM7Q4BSX2zOCw0P
+HQAAAAAAAAAAAAAAAAAAAAAAAAAAGBwgPWp7i/9qe4v/GBwgPQAAAAAAAAAAAAAAAAAAAAAAAAAADxIU
+JxQXGjNRXWnJNj5HiAAAAAAAAAAAAAAAAAAAAAA2PkeIUV1pyRQXGjMPEhQnAAAAAAAAAAAAAAAAAAAA
+AAAAAAAYHCA9anuL/2p7i/8YHCA9AAAAAAAAAAAAAAAAAAAAABkeIUFWZHLaFBcaNAoLDRlQXWrLNj9J
+igAAAAAAAAAANj9JilBdassKCw0ZFBgaNFZkctoZHiFBAAAAAAAAAAAAAAAAAAAAABgcID1qe4v/anuL
+/xgcID0AAAAAAAAAAAAAAAAaHiJCV2d03iIoLFYAAAAAAAAAAAsLDhtRXWnJNj9HijY/R4pRXWnJCwsO
+GwAAAAAAAAAAIigsVldndN4aHiJCAAAAAAAAAAAAAAAAGBwgPWp7i/9qe4v/GBwgPQAAAAAAAAAAGh8i
+Q1lndN8gJixUAAAAAAAAAAAAAAAAAAAAAAoKDRpQXWnKUF1pygoKDRoAAAAAAAAAAAAAAAAAAAAAICYs
+VFlndN8aHyJDAAAAAAAAAAAYHCA9anuL/2p7i/8YHCA9AAAAABogJERXZ3TeICUrUgAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAkKCxcJCgsXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICUrUldndN4aICREAAAA
+ABgcID1qe4v/anuL/xUYGzQaHiFBWWd03iAkKlEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICQqUVlndN4aHiFBFRgbNGp7i/9oeIj/ND1E
+g1Ffa88cISVIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAHCElSFFfa880PUSDaHiI/2d3h/9kdoX8Nj9GhxYYHTYYGx88GBsf
+PBgbHzwYGx88GBsfPBgbHzwYGx88GBsfPBgbHzwYGx88GBsfPBgbHzwYGx88GBsfPBgbHzwYGx88GBsf
+PBgbHzwWGB02Nj9Gh2R2hfxnd4f/Z3eH/2d3h/9oeIj/anqL/2p6i/9qeov/anqL/2p6i/9qeov/anqL
+/2p6i/9qeov/anqL/2p6i/9qeov/anqL/2p6i/9qeov/anqL/2p6i/9qeov/anqL/2p6i/9oeIj/Z3eH
+/2d3h/8ADgEAAAMAAAABABoAAAEBAAMAAAABABIAAAECAAMAAAAEAAAIBgEDAAMAAAABAAEAAAEGAAMA
+AAABAAIAAAERAAQAAAABAAAACAESAAMAAAABAAEAAAEVAAMAAAABAAQAAAEWAAMAAAABABIAAAEXAAQA
+AAABAAAHUAEcAAMAAAABAAEAAAFSAAMAAAABAAEAAAFTAAMAAAAEAAAIDodzAAcAAAeoAAAIFgAAAAAA
+CAAIAAgACAABAAEAAQABAAAHqGFwcGwCIAAAbW50clJHQiBYWVogB9kAAgAZAAsAGgALYWNzcEFQUEwA
+AAAAYXBwbAAAAAAAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1hcHBsAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALZGVzYwAAAQgAAABvZHNjbQAAAXgAAAVsY3BydAAABuQA
+AAA4d3RwdAAABxwAAAAUclhZWgAABzAAAAAUZ1hZWgAAB0QAAAAUYlhZWgAAB1gAAAAUclRSQwAAB2wA
+AAAOY2hhZAAAB3wAAAAsYlRSQwAAB2wAAAAOZ1RSQwAAB2wAAAAOZGVzYwAAAAAAAAAUR2VuZXJpYyBS
+R0IgUHJvZmlsZQAAAAAAAAAAAAAAFEdlbmVyaWMgUkdCIFByb2ZpbGUAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG1sdWMAAAAAAAAAHgAAAAxza1NLAAAAKAAAAXho
+ckhSAAAAKAAAAaBjYUVTAAAAJAAAAchwdEJSAAAAJgAAAex1a1VBAAAAKgAAAhJmckZVAAAAKAAAAjx6
+aFRXAAAAFgAAAmRpdElUAAAAKAAAAnpuYk5PAAAAJgAAAqJrb0tSAAAAFgAAAshjc0NaAAAAIgAAAt5o
+ZUlMAAAAHgAAAwBkZURFAAAALAAAAx5odUhVAAAAKAAAA0pzdlNFAAAAJgAAAqJ6aENOAAAAFgAAA3Jq
+YUpQAAAAGgAAA4hyb1JPAAAAJAAAA6JlbEdSAAAAIgAAA8ZwdFBPAAAAJgAAA+hubE5MAAAAKAAABA5l
+c0VTAAAAJgAAA+h0aFRIAAAAJAAABDZ0clRSAAAAIgAABFpmaUZJAAAAKAAABHxwbFBMAAAALAAABKRy
+dVJVAAAAIgAABNBhckVHAAAAJgAABPJlblVTAAAAJgAABRhkYURLAAAALgAABT4AVgFhAGUAbwBiAGUA
+YwBuAP0AIABSAEcAQgAgAHAAcgBvAGYAaQBsAEcAZQBuAGUAcgBpAQ0AawBpACAAUgBHAEIAIABwAHIA
+bwBmAGkAbABQAGUAcgBmAGkAbAAgAFIARwBCACAAZwBlAG4A6AByAGkAYwBQAGUAcgBmAGkAbAAgAFIA
+RwBCACAARwBlAG4A6QByAGkAYwBvBBcEMAQzBDAEOwRMBD0EOAQ5ACAEPwRABD4ERAQwBDkEOwAgAFIA
+RwBCAFAAcgBvAGYAaQBsACAAZwDpAG4A6QByAGkAcQB1AGUAIABSAFYAQpAadSgAIABSAEcAQgAggnJf
+aWPPj/AAUAByAG8AZgBpAGwAbwAgAFIARwBCACAAZwBlAG4AZQByAGkAYwBvAEcAZQBuAGUAcgBpAHMA
+awAgAFIARwBCAC0AcAByAG8AZgBpAGzHfLwYACAAUgBHAEIAINUEuFzTDMd8AE8AYgBlAGMAbgD9ACAA
+UgBHAEIAIABwAHIAbwBmAGkAbAXkBegF1QXkBdkF3AAgAFIARwBCACAF2wXcBdwF2QBBAGwAbABnAGUA
+bQBlAGkAbgBlAHMAIABSAEcAQgAtAFAAcgBvAGYAaQBsAMEAbAB0AGEAbADhAG4AbwBzACAAUgBHAEIA
+IABwAHIAbwBmAGkAbGZukBoAIABSAEcAQgAgY8+P8GWHTvZOAIIsACAAUgBHAEIAIDDXMO0w1TChMKQw
+6wBQAHIAbwBmAGkAbAAgAFIARwBCACAAZwBlAG4AZQByAGkAYwOTA7UDvQO5A7oDzAAgA8ADwQO/A8YD
+rwO7ACAAUgBHAEIAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcAZQBuAOkAcgBpAGMAbwBBAGwAZwBlAG0A
+ZQBlAG4AIABSAEcAQgAtAHAAcgBvAGYAaQBlAGwOQg4bDiMORA4fDiUOTAAgAFIARwBCACAOFw4xDkgO
+Jw5EDhsARwBlAG4AZQBsACAAUgBHAEIAIABQAHIAbwBmAGkAbABpAFkAbABlAGkAbgBlAG4AIABSAEcA
+QgAtAHAAcgBvAGYAaQBpAGwAaQBVAG4AaQB3AGUAcgBzAGEAbABuAHkAIABwAHIAbwBmAGkAbAAgAFIA
+RwBCBB4EMQRJBDgEOQAgBD8EQAQ+BEQEOAQ7BEwAIABSAEcAQgZFBkQGQQAgBioGOQYxBkoGQQAgAFIA
+RwBCACAGJwZEBjkGJwZFAEcAZQBuAGUAcgBpAGMAIABSAEcAQgAgAFAAcgBvAGYAaQBsAGUARwBlAG4A
+ZQByAGUAbAAgAFIARwBCAC0AYgBlAHMAawByAGkAdgBlAGwAcwBldGV4dAAAAABDb3B5cmlnaHQgMjAw
+NyBBcHBsZSBJbmMuLCBhbGwgcmlnaHRzIHJlc2VydmVkLgBYWVogAAAAAAAA81IAAQAAAAEWz1hZWiAA
+AAAAAAB0TQAAPe4AAAPQWFlaIAAAAAAAAFp1AACscwAAFzRYWVogAAAAAAAAKBoAABWfAAC4NmN1cnYA
+AAAAAAAAAQHNAABzZjMyAAAAAAABDEIAAAXe///zJgAAB5IAAP2R///7ov///aMAAAPcAADAbNIlJico
+WiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU0JpdG1hcEltYWdlUmVwoykqK18QEE5TQml0bWFwSW1hZ2VS
+ZXBaTlNJbWFnZVJlcFhOU09iamVjdNIlJi0uV05TQXJyYXmiLSvSJSYwMV5OU011dGFibGVBcnJheaMw
+LSvTMzQKNTY3V05TV2hpdGVcTlNDb2xvclNwYWNlRDAgMAAQA4AM0iUmOTpXTlNDb2xvcqI5K9IlJjw9
+V05TSW1hZ2WiPCtfEA9OU0tleWVkQXJjaGl2ZXLRQEFUcm9vdIABAAgAEQAaACMALQAyADcARgBMAFcA
+XgBlAHIAeQCBAIMAhQCKAIwAjgCXAJwApwCpAKsArQCyALUAtwC5ALsAvQDCANkA2wDdEJ8QpBCvELgQ
+yxDPEOIQ7RD2EPsRAxEGEQsRGhEeESURLRE6ET8RQRFDEUgRUBFTEVgRYBFjEXUReBF9AAAAAAAAAgEA
+AAAAAAAAQgAAAAAAAAAAAAAAAAAAEX8
+</mutableData>
+        </image>
+        <image name="Close Icon 2" width="16" height="16"/>
+        <image name="Comment button" width="105" height="30"/>
+        <image name="Conversation Icon_Off" width="28" height="24"/>
+        <image name="Create Post Button Off" width="117" height="32"/>
+        <image name="Discover Icon_Off" width="27" height="24"/>
+        <image name="EB58C8A7-A055-40B5-9661-2788EA20D1CD" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -6780,16 +6790,6 @@ BA6JAAQOkQAEDp4ABA6jAAQOpQAEDqcABA6sAAQOtAAEDrcABA68AAQOxAAEDscABA7ZAAQO3AAEDuEA
 AAAAAAAEAQAAAAAAAABCAAAAAAAAAAAAAAAAAAQO4w
 </mutableData>
         </image>
-        <image name="Add User Icon" width="25" height="19"/>
-        <image name="Back Icon 2" width="20" height="19"/>
-        <image name="Bear Icon" width="56" height="56"/>
-        <image name="Bull Icon" width="60" height="59"/>
-        <image name="Bullish Icon - SMALL" width="35" height="34"/>
-        <image name="Close Icon 2" width="16" height="16"/>
-        <image name="Comment button" width="105" height="30"/>
-        <image name="Conversation Icon_Off" width="28" height="24"/>
-        <image name="Create Post Button Off" width="117" height="32"/>
-        <image name="Discover Icon_Off" width="27" height="24"/>
         <image name="Edit Profile Text Field" width="320" height="52"/>
         <image name="Follow Button for Profile Off" width="182" height="32"/>
         <image name="Line" width="320" height="1"/>
